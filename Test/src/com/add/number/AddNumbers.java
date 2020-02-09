@@ -7,15 +7,18 @@ public class AddNumbers {
 	
 	public static void main(String args[])
 	{
-	System.out.println(" enter the first number \n");
+	System.out.println(" enter the first number ");
 	int firstNumber = sc.nextInt();
 	
 	System.out.println(" enter the second number");
 	int secondNumber = sc.nextInt();
 	
-	int add = firstNumber + secondNumber;
+	System.out.println("enter the third number");
+	int thirdNumber = sc.nextInt();
 	
-	System.out.println(" the add of two numbers : " + add);
+	int add = firstNumber + secondNumber + thirdNumber;
+	
+	System.out.println(" the addition of three numbers : " + add);
 	}
 
 
