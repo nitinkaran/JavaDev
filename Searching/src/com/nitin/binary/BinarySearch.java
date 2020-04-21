@@ -2,15 +2,15 @@ package com.nitin.binary;
 public class BinarySearch{
 	
 	
-	int mid;
 	
+	int mid; int flag =0;
 	
 	public void search(int beg , int end  , int X , int Arr[])
 	
 	{
 		
 		
-		        int flag =0 ;
+		        
 		        
 		            while(beg<=end)
 		                 {

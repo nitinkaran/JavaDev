@@ -16,7 +16,7 @@ public Car( String name, int cylinders) {
 }
 
 public String startEngine() {
-	return "car -> startEngine() ";
+	return  "car -> startEngine() ";
 }
 
 public String acelrate() {
@@ -49,20 +49,20 @@ public int getCylinders() {
 	@Override
 	public String startEngine() {
 		
-		return "Porche -> StartEngine()";
+		return getClass().getSimpleName()+ " -> StartEngine()";
 	}
 	
 	@Override
 	public String acelrate() {
 		
-		return "Porche -> accelrate()";
+		return getClass().getSimpleName() + " -> accelrate()";
 
 	}
 
 	@Override
 	public String brake() {
 		
-		return "Porche -> brake()";
+		return getClass().getSimpleName() + " -> brake()";
 	}	
 	 
  }
@@ -79,20 +79,20 @@ public int getCylinders() {
 	@Override
 	public String startEngine() {
 		
-		return "Lambo -> StartEngine()";
+		return getClass().getSimpleName() + " -> StartEngine()";
 	}
 
 	@Override
 	public String acelrate() {
 		
-		return "Lambo -> accelrate()";
+		return getClass().getSimpleName() + " -> accelrate()";
 
 	}
 
 	@Override
 	public String brake() {
 		
-		return "Lambo -> brake()";
+		return getClass().getSimpleName() + "-> brake()";
 
 	}
 	 
